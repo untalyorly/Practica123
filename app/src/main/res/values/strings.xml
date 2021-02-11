@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practica123</string>
+    <string name="primer">Practicas uno dos tres</string>
+    <string name="pasar_parametro">PASAR PARAMETRO</string>
+    <string name="textoSplash">APLICACION DE PRUEBA</string>
+    <string name="texto_imagen_captura">No se selecciono imagen</string>
+    <string name="texto_camara">TOMAR UNA FOTO</string>
+    <string name="button_camara">TOMAR FOTO</string>
+    <string name="opcion_camara">Guardar Imagen</string>
+    <string name="opcion_camara_guardar">Eliminar</string>
+
+
+</resources>

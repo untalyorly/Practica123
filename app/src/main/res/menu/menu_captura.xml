@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_opcion_camara"
+        android:title="@string/opcion_camara">
+    </item>
+    <item
+        android:id="@+id/opcion_camara_guardar"
+        android:title="@string/opcion_camara_guardar">
+
+    </item>
+
+</menu>

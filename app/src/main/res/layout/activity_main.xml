@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/primer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "@string/primer" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/buttonBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUSCAR " />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR" />
+
+    <Button
+        android:id="@+id/buttonPasarParametro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASAR PARÁMETRO" />
+
+    <Button
+        android:id="@+id/buttonRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER RECYCLER VIEW" />
+
+    <Button
+        android:id="@+id/btnCamara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_camara" />
+
+    <Button
+        android:id="@+id/btnConversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversion Euros" />
+
+    <Button
+        android:id="@+id/btnCalendario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calendario" />
+
+    <Button
+        android:id="@+id/btnBateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER NIVEL BATERIA" />
+</LinearLayout>

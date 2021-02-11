@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/x"
+    android:paddingLeft="@dimen/y"
+    android:paddingRight="@dimen/y"
+    android:paddingTop="@dimen/x"
+
+    tools:context=".CamaraActivity">
+    <ImageView
+        android:id="@+id/imagen_galeria"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16sp"
+        android:layout_above="@id/button_captura"
+        android:contentDescription="@string/texto_imagen_captura"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/mensaje_captura"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/texto_imagen_captura"
+        android:gravity="center"
+        android:visibility="visible"
+        android:layout_above="@id/button_captura"/>
+    <Button
+        android:id="@+id/button_captura"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/texto_camara"
+        />
+
+</RelativeLayout>
